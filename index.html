@@ -258,6 +258,54 @@ transition:.6s;
 .social-links a:hover::before{
 left:100%;
 }
+
+.footer-links{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:12px;
+}
+
+.footer-links a{
+  color:#fff;
+  text-decoration:none;
+  font-size:14px;
+  font-weight:500;
+  transition:.25s;
+}
+
+.footer-links a:hover{
+  text-decoration:underline;
+  opacity:.8;
+}
+
+.footer-links span{
+  color:rgba(255,255,255,.65);
+}
+
+.copyright{
+  font-size:13px;
+  opacity:.9;
+}
+
+@media(max-width:600px){
+  .footer-links{
+    gap:5px;
+    line-height:1.8;
+    padding:0 10px;
+  }
+
+  .footer-links a{
+    font-size:12px;
+  }
+
+  .copyright{
+    font-size:12px;
+  }
+}
+
 </style>
 </head>
 
@@ -365,8 +413,29 @@ PYQWaleBhaiya is a student-focused platform designed to support AKTU B.Tech stud
 
 </div>
 </div>
+<footer>
 
-<footer>© 2026 PYQWaleBhaiya • Made with ❤️ by Surya</footer>
+  <div class="footer-links">
+    <a href="about.html">About</a>
+    <span>|</span>
+    <a href="contact.html">Contact</a>
+    <span>|</span>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <span>|</span>
+    <a href="terms.html">Terms</a>
+    <span>|</span>
+    <a href="disclaimer.html">Disclaimer</a>
+    <span>|</span>
+    <a href="copyright.html">Copyright</a>
+    <span>|</span>
+    <a href="sitemap.html">Sitemap</a>
+  </div>
+
+  <div class="copyright">
+    © 2026 PYQWaleBhaiya • Made with ❤️ by Surya
+  </div>
+
+</footer>
 
 <script>
 
