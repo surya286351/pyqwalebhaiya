@@ -1,78 +1,298 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sitemap | PYQWaleBhaiya</title>
-<meta name="description" content="Sitemap of PYQWaleBhaiya website. Find important pages and educational resources.">
+
+<title>About Us | PYQWaleBhaiya</title>
+
+<meta name="description" content="Learn about PYQWaleBhaiya, a student-focused platform providing organized access to AKTU B.Tech previous year question papers.">
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
-body{background:#f4f7ff;color:#222;line-height:1.7}
-header{background:linear-gradient(135deg,#0b3c91,#1e88e5);padding:18px;text-align:center}
-header a{color:#fff;text-decoration:none;font-size:24px;font-weight:700}
-.container{max-width:900px;margin:40px auto;padding:0 20px}
-.card{background:#fff;padding:35px;border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.08)}
-h1{color:#0b3c91;margin-bottom:15px}
-h2{color:#0b3c91;font-size:20px;margin:25px 0 12px}
-p{color:#555}
-ul{list-style:none;padding:0}
-li{margin:10px 0}
-li a{display:block;background:#f4f7ff;padding:12px 16px;border-radius:10px;color:#0b3c91;text-decoration:none;font-weight:500;transition:.25s}
-li a:hover{background:#e4edff;transform:translateX(4px)}
-.back{display:inline-block;margin-top:25px;padding:11px 22px;background:linear-gradient(135deg,#0b3c91,#1e88e5);color:#fff;text-decoration:none;border-radius:25px}
-footer{text-align:center;background:linear-gradient(135deg,#0b3c91,#1e88e5);color:#fff;padding:20px;margin-top:50px}
-@media(max-width:600px){.card{padding:25px 20px}header a{font-size:21px}}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Arial',sans-serif;
+}
+
+body{
+    background:#f4f7ff;
+    color:#222;
+    line-height:1.7;
+    overflow-x:hidden;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(135deg,#0b3c91,#1e88e5);
+    color:#fff;
+    padding:18px 20px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+header a{
+    color:#fff;
+    text-decoration:none;
+    font-size:25px;
+    font-weight:700;
+}
+
+/* CONTAINER */
+.container{
+    max-width:950px;
+    margin:45px auto;
+    padding:0 20px;
+}
+
+.card{
+    background:#fff;
+    padding:40px;
+    border-radius:22px;
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+}
+
+h1{
+    color:#0b3c91;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#0b3c91;
+    font-size:21px;
+    margin:28px 0 10px;
+}
+
+p{
+    color:#555;
+    margin-bottom:15px;
+}
+
+/* BACK BUTTON */
+.back-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    margin-top:25px;
+    padding:12px 25px;
+    background:linear-gradient(135deg,#0b3c91,#1e88e5);
+    color:#fff;
+    text-decoration:none;
+    border-radius:999px;
+    font-size:15px;
+    font-weight:600;
+    box-shadow:0 8px 20px rgba(11,60,145,.22);
+    transition:.3s;
+}
+
+.back-btn:hover{
+    transform:translateX(-5px);
+    box-shadow:0 12px 28px rgba(11,60,145,.30);
+}
+
+/* CONNECT */
+.connect{
+    margin-top:35px;
+    padding-top:25px;
+    border-top:1px solid #eee;
+    text-align:center;
+}
+
+.connect h3{
+    color:#0b3c91;
+    margin-bottom:18px;
+}
+
+.social-links{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.social-links a{
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:999px;
+    background:#f4f7ff;
+    color:#0b3c91;
+    font-size:14px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.social-links a:hover{
+    background:#0b3c91;
+    color:#fff;
+    transform:translateY(-3px);
+}
+
+/* FOOTER */
+footer{
+    background:linear-gradient(135deg,#0b3c91,#1e88e5);
+    color:#fff;
+    text-align:center;
+    padding:30px 20px;
+    margin-top:60px;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px 20px;
+    margin-bottom:18px;
+}
+
+.footer-links a{
+    color:#fff;
+    text-decoration:none;
+    font-size:13px;
+}
+
+.footer-links a:hover{
+    text-decoration:underline;
+}
+
+.footer-copy{
+    font-size:13px;
+    opacity:.9;
+}
+
+@media(max-width:600px){
+
+    .container{
+        margin:25px auto;
+    }
+
+    .card{
+        padding:25px 20px;
+    }
+
+    h1{
+        font-size:25px;
+    }
+
+    h2{
+        font-size:19px;
+    }
+
+    header a{
+        font-size:21px;
+    }
+
+    .footer-links{
+        flex-direction:column;
+        gap:12px;
+    }
+}
 </style>
 </head>
 
 <body>
 
-<header><a href="index.html">PYQWaleBhaiya</a></header>
+<header>
+    <a href="index.html">PYQWaleBhaiya</a>
+</header>
 
-<div class="container">
+<main class="container">
+
 <div class="card">
 
-<h1>Website Sitemap</h1>
+<h1>About PYQWaleBhaiya</h1>
 
 <p>
-Use the links below to navigate through the main sections and
-information pages of PYQWaleBhaiya.
+PYQWaleBhaiya is a student-focused educational platform created to make
+Previous Year Question Papers (PYQs) easier to find, organize and access.
 </p>
 
-<h2>Main Pages</h2>
+<p>
+The platform is designed especially for students preparing for AKTU
+B.Tech examinations. Our goal is to provide a simple and organized
+interface where students can find available question papers without
+having to search through multiple sources.
+</p>
 
-<ul>
-<li><a href="index.html">🏠 Home</a></li>
-<li><a href="about.html">ℹ️ About Us</a></li>
-<li><a href="contact.html">📩 Contact Us</a></li>
-</ul>
+<h2>Our Purpose</h2>
 
-<h2>Academic Resources</h2>
+<p>
+Previous year question papers are useful study resources for understanding
+exam patterns, identifying frequently asked topics and practicing questions.
+PYQWaleBhaiya organizes available papers in a folder-style interface to
+make this process easier for students.
+</p>
 
-<ul>
-<li><a href="index.html#pyq">📚 AKTU B.Tech PYQs</a></li>
-<li><a href="bbdu.html">🎓 BBDU PYQs</a></li>
-<li><a href="bpharma.html">💊 B-Pharma</a></li>
-<li><a href="mba.html">📖 MBA</a></li>
-</ul>
+<h2>What We Provide</h2>
 
-<h2>Website Information</h2>
+<p>
+The website provides access to available educational resources including
+previous year question papers. These resources are shared through
+Google Drive and linked or embedded on the website for convenient access.
+</p>
 
-<ul>
-<li><a href="privacy-policy.html">🔒 Privacy Policy</a></li>
-<li><a href="terms.html">📄 Terms & Conditions</a></li>
-<li><a href="disclaimer.html">⚠️ Disclaimer</a></li>
-<li><a href="copyright.html">© Copyright</a></li>
-</ul>
+<h2>Simple & Student-Friendly</h2>
 
-<a class="back" href="index.html">← Back to Home</a>
+<p>
+We aim to keep PYQWaleBhaiya lightweight, mobile-friendly and easy to
+navigate. Students can browse academic years and access the available
+question papers from a single platform.
+</p>
+
+<h2>Our Goal</h2>
+
+<p>
+Our goal is to continuously improve the organization and accessibility
+of educational resources while keeping the platform simple and useful
+for students.
+</p>
+
+<a href="index.html" class="back-btn">← Back</a>
+
+<div class="connect">
+
+<h3>Connect with Us</h3>
+
+<div class="social-links">
+
+<a href="https://www.instagram.com/pyqwalebhaiya.in" target="_blank">
+Instagram
+</a>
+
+<a href="https://whatsapp.com/channel/0029VbCMGtoL7UVPh1khC00R" target="_blank">
+WhatsApp
+</a>
+
+<a href="mailto:surya286351@gmail.com">
+Email
+</a>
 
 </div>
+
 </div>
 
-<footer>© 2026 PYQWaleBhaiya • Made with ❤️ by Surya</footer>
+</div>
+
+</main>
+
+<footer>
+
+<div class="footer-links">
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="privacy-policy.html">Privacy Policy</a>
+<a href="terms.html">Terms</a>
+<a href="disclaimer.html">Disclaimer</a>
+<a href="copyright.html">Copyright</a>
+<a href="sitemap.html">Sitemap</a>
+</div>
+
+<div class="footer-copy">
+© 2026 PYQWaleBhaiya • Made with ❤️ by Surya
+</div>
+
+</footer>
 
 </body>
 </html>
